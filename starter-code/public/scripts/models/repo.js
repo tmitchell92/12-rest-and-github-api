@@ -19,8 +19,8 @@ var app = app || {};
     })
 .then(
   data => {
-    data.forEach(repos.all.push(data))}
-);
+    repos.all = data
+  });
     callback();
   };
 
